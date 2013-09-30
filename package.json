@@ -1,0 +1,15 @@
+{
+  "name": "sistem",
+  "version": "0.0.1",
+  "description": "utilities for file related tasks",
+  "repository": "",
+  "author": "tunderdomb@gmail.com",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
