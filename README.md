@@ -11,37 +11,36 @@ Modules
 
 ## global modules
 
-### .datURLtoBlob
-### .imageDataToBlob
-### .resizeImage
-### .resizeImage
-### .batch
-### .isImage
-### .isAudio
-### .isVideo
+### .datURLtoBlob( dataURL, type )
+### .imageDataToBlob( imageData )
+### .resizeImage( sourceImage, maxWidth, maxHeight, done )
+### .batch( taskArray, process, done, throttle )
+### .isImage( pathOrFile )
+### .isAudio( pathOrFile )
+### .isVideo( pathOrFile )
 
 ## sistem.file
 
-### .readAsText
-### .readAsArrayBuffer
-### .readAsBinaryString
-### .readAsDataURL
-### .readAsJSON
+### .readAsText( file, done )
+### .readAsArrayBuffer( file, done )
+### .readAsBinaryString( file, done )
+### .readAsDataURL( file, done )
+### .readAsJSON( file, done )
 
 ## sistem.path
 
-### .concat
-### .getDir
-### .getFileName
-### .getParentDir
-### .replaceDir
-### .renameFile
-### .stripExtension
+### .concat( path )
+### .getDir( path )
+### .getFileName( path )
+### .getParentDir( path )
+### .replaceDir( path, newPath )
+### .renameFile( path, newName )
+### .stripExtension( path )
 
 ## sistem.space
 
-### .convert
-### .dynamic
+### .convert( bytes, toUnit, fromUnit )
+### .dynamic( bytes, precision )
 
 ## sistem.local
 

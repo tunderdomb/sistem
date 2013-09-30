@@ -124,7 +124,7 @@
   }
 
   sis.extend({
-    isImage: function ( pathOrFile ){
+    isImage: function( pathOrFile ){
       return typeof pathOrFile == "string"
         ? /\.(jpe?g|png|gif)$/i.test(pathOrFile)
         : /image.*/.test(pathOrFile.type)
