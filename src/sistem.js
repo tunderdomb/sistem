@@ -2,6 +2,8 @@
   window.sistem = f(window, document, {})
 }(function ( win, doc, sis ){
 
+  function noop(){}
+
   function extend( o, e ){
     for( var prop in e ){
       o[prop] = e[prop]
