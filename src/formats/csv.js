@@ -34,6 +34,7 @@
   }
 
   function parse( text, options ){
+    options = options || csv.options
     var i = -1
       , l = text.length
       , header = options.header
